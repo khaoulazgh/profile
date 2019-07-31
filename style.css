@@ -1,0 +1,162 @@
+
+@import url('href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap')
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  cover;
+}
+html{
+  font-size: 11px;
+}
+
+.header{
+  height: 95vh;
+  font-family: "Lato", Arial, sans-serif;
+  background: linear-gradient(to left bottom,rgba(0, 25, 1, 0.1), rgba(0, 25, 1, 0.2)), url("images/backg2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+nav{
+  top: 10px;
+  left: 10%;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.profile-pic-box{
+  margin: 0 auto;
+  box-sizing: cover;
+
+}
+.profile-pic{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #f4f4f4;
+  margin: 175px auto;
+  margin-bottom: 10px;
+
+}
+nav ul{
+  list-style: none;
+
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 35px 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+nav ul li a:hover{
+  padding-bottom: 3px;
+  border-bottom: 1px solid #fff;
+}
+.text-box{
+  font-size: 10px;
+  text-align: center;
+}
+.primary-heading{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.heading-main{
+  display: block;
+  font-size:  20px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.heading-sub{
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: 5;
+  /*letter-spacing: 10px;*/
+  text-decoration: none;
+  margin-bottom: 10px;
+
+}
+
+.heading-sub:hover{
+  padding-bottom: 3px;
+  text-decoration: underline;
+
+}
+
+.contact-heading{
+  display: block;
+  font-size: 14px;
+  font-weight: 150;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  color: #ffff;
+  cursor: pointer;
+  text-decoration: none;
+
+
+}
+.contact-heading:hover{
+  padding-bottom: 3px;
+  text-decoration: underline;
+
+}
+
+
+
+.portfolio-element-head{
+    text-align: center;
+    background: white;
+    padding: 35px;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.portfolio-element{
+    text-align: center;
+    background: white;
+    margin: 24px auto;
+    padding: 32px;
+    width: 620px;
+    font-size: 15px;
+    font-weight: 35;
+}
+
+
+/*.btn{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 3px 10px;
+  display: inline-block;
+  font-size: 400px;
+  border: none;
+  color: #ffff;
+}
+.btn:hover{
+  color: #ffff;
+}*/
+/*@keyframes moveRight {
+  0%{
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  100%{
+opacity: 1;
+transform: translate(0)''
+  }
+}*/
+
+
+
+
